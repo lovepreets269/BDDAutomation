@@ -1,0 +1,6 @@
+20:35:30.763 [main] INFO  - enterFullName is successfully executed
+20:35:30.947 [main] INFO  - enterEmail is successfully executed
+20:35:31.078 [main] INFO  - enterCurrentAddress is successfully executed
+20:35:31.261 [main] INFO  - enterPermanentAddress is successfully executed
+20:35:32.420 [main] INFO  - clickSubmit is successfully executed
+20:35:32.541 [main] INFO  - verifyOutput is successfully executed
