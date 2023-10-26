@@ -4,7 +4,12 @@
 	<artifactId>LearnAutomation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<dependencies>
-
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>2.0.9</version>
+			<scope>test</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -12,27 +17,9 @@
 			<version>7.4.1</version>
 		</dependency>
 		<dependency>
-			<groupId>io.qameta.allure</groupId>
-			<artifactId>allure-cucumber7-jvm</artifactId>
-			<version>2.19.0</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-htmlunit-driver -->
-
-
-		<dependency>
-			<groupId>io.qameta.allure</groupId>
-			<artifactId>allure-testng</artifactId>
-			<version>2.18.1</version>
-		</dependency>
-		<dependency>
 			<groupId>de.openkeyword</groupId>
 			<artifactId>autoit</artifactId>
 			<version>0.1.20</version>
-		</dependency>
-		<dependency>
-			<groupId>io.qameta.allure</groupId>
-			<artifactId>allure-testng</artifactId>
-			<version>2.19.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
@@ -47,19 +34,23 @@
 			<artifactId>log4j-api</artifactId>
 			<version>2.19.0</version>
 		</dependency>
-<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
-<dependency>
-    <groupId>org.slf4j</groupId>
-    <artifactId>slf4j-simple</artifactId>
-    <version>2.0.9</version>
-    <scope>test</scope>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
+		<dependency>
+			<groupId>net.masterthought</groupId>
+			<artifactId>cucumber-reporting</artifactId>
+			<version>5.7.7</version>
+		</dependency>
 
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-testng</artifactId>
 			<version>7.4.1</version>
 		</dependency>
+		<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.20</version>
+</dependency>
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
@@ -68,12 +59,12 @@
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
-			<version>5.4.0</version>
+			<version>5.5.3</version>
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.1.4</version>
+			<version>4.14.1</version>
 		</dependency>
 	</dependencies>
 	<properties>
@@ -109,7 +100,6 @@
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>
-
 			</plugins>
 
 		</pluginManagement>

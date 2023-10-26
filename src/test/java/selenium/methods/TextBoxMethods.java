@@ -47,7 +47,7 @@ public class TextBoxMethods {
 		} catch (NoSuchElementException e) {
 			// TODO: handle exception
 		}
-		Logger.info("enterFullName is successfully executed");
+		Logger.info("enterFullName is successful executed");
 	}
 	
 	public static void enterEmail(String userEmail)
